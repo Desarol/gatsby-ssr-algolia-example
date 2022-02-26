@@ -5,6 +5,7 @@
   "version": "0.1.0",
   "author": "Kyle Mathews <mathews.kyle@gmail.com>",
   "dependencies": {
+    "algoliasearch": "^4.12.1",
     "gatsby": "^4.8.0",
     "gatsby-plugin-gatsby-cloud": "^4.8.0",
     "gatsby-plugin-image": "^2.8.0",
@@ -15,11 +16,14 @@
     "gatsby-source-filesystem": "^4.8.0",
     "gatsby-transformer-sharp": "^4.8.0",
     "prop-types": "^15.8.0",
+    "qs": "^6.10.3",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
-    "react-helmet": "^6.1.0"
+    "react-helmet": "^6.1.0",
+    "react-instantsearch-dom": "^6.22.0"
   },
   "devDependencies": {
+    "@types/react-instantsearch-dom": "^6.12.2",
     "prettier": "^2.5.1"
   },
   "keywords": [
